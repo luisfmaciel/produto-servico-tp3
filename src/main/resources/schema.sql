@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS produtos (
+    id LONG PRIMARY KEY ,
+    nome VARCHAR(30) NOT NULL ,
+    descricao VARCHAR(50) NOT NULL ,
+    preco DECIMAL(10, 2) NOT NULL
+);
